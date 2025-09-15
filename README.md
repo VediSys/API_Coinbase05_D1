@@ -5,7 +5,7 @@ Obtains mobile cryptocurrency quotes via Coinbase and indicates trend, both logi
 2) Download all scripts into the same working directory as Pydroid.
 3) Run 'api_api_cb05_idx.py' in the Pydroid IDE.
 
-* Make sure to have pandas, matplotlib and mplfinance pipped (installed) from within Pydroid on your device.
+* Make sure to have numpy, pandas, matplotlib and mplfinance pipped (installed) from within Pydroid on your device.
 
 
 Please note:
