@@ -1,13 +1,35 @@
 # API_Coinbase05_D1   *08092025
-An Android Pydroid template to obtain mobile cryptocurrency quotes via Coinbase and indicate trend, both logically and visually.
+An Android-based Pydroid template script to obtain mobile cryptocurrency quotes via Coinbase and indicate trend, both logically and visually.
 
 Displays a window of axes in a figure with:
 Bollinger Bands, triple LaGuerre,
 triple Parabolic Stop And Reverse, Volume.
 
-1) Download all the scripts into the same working directory.
+1) Check the Pydroid 'pip' menu dialog if these prerequisite modules are available :
+    datetime,
+    dateutil,
+    http,
+    math,
+    matplotlib,
+    mplfinance,
+    numpy,
+    pandas,
+    pyti,
+    time
 
-2) Download Pydroid and install datetime, dateutil, numpy, pandas, math, matplotlib, mplfinance, pyti and six from within Pydroid onto your mobile.
+2) Download all application script files into a single working directory:
+
+		api_cb05_index.py  # index
+		autosize_cb.py     # connection
+		bollinger_bands.py # indicator
+		display_quotes.py  # show data
+		indicator_logic.py # logic
+		indicator_panel.py # panels
+		indicator_value.py # values
+		laguerre.py        # indicator
+		parabolic_sar3.py  # indicator
+		portfolio.py       # currencies
+		themestyle.py      # theme style
 
 3) Run 'api_api_cb05_idx.py' in the Pydroid IDE.
 
