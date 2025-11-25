@@ -19,7 +19,18 @@ triple Parabolic Stop And Reverse, Volume.
 
 2) Download all application script files into a single working directory:
 
-		api_cb05_index.py  # index
+		api_cb05_index.py  #index
+api_cb_BLPredux.py # index(alternate)
+		autosize_cb.py     # connection
+		bollinger_bands.py # indicator
+		display_quotes.py  # show data
+		indicator_logic.py # logic
+		indicator_panel.py # panels
+		indicator_value.py # values
+		laguerre.py        # indicator
+		parabolic_sar3.py  # indicator
+		portfolio.py       # currencies
+		themestyle.py      # theme style
    api_cb_BLPredux.py # index(alternate)
 		autosize_cb.py     # connection
 		bollinger_bands.py # indicator
